@@ -37,4 +37,4 @@ console.log(gameName.slice(2, 5));
 // console.log(gameName.slice(-2, 3));
 console.log(gameName.split("-")); // string ko split karke array me de deta hai.
 // console.log(gameName);
-
+// Done
