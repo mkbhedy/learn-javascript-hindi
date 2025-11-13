@@ -41,9 +41,34 @@ const names = {
 const myID = function(){
 console.log("Hello World");
 }
-console.log(myID);
+// console.log(myID);
 
 
 
 // Javascript is a dynamictally Typed.
 // Another brother is TypeScript
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// MEMORY
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (primitive) => copy milta hai value ka
+// Heap (non-primitive memory) => reference milta hai value ka, original value change hota hai.
+
+let myBlogName = "manishjangra.dev"
+let anotherName = myBlogName
+console.log(anotherName);
+anotherName = "chaiaurcode"
+console.log(anotherName);
+
+let user = {
+    email: "manishjangra97@gmail.com",
+    upi: "manishjangra97@upi"
+}
+let userTwo = user;
+userTwo.email = "amit@gmail.com"
+console.log(user.email);
+console.log(userTwo.email);
+
