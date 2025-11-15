@@ -20,14 +20,14 @@ console.log(fname);
 json file bhi ek object type hi hota hai but isme key aur value dono string hoti hai.
 */
 
-// // json format
+// json format
 // {
 //     "name":"manish",
 //     "age":"125",
 //     "course":"codeminal"
 // }
 
-// // 2nd method of API's
+// 2nd method of API's
 // [
 //     {},
 //     {},
