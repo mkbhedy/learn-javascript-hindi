@@ -18,3 +18,14 @@ function_name(arguments1, agruments2)
 // }
 // let myResult = addMyNumber(2,3)
 // console.log(myResult);
+
+// rest and spred operator ...num1
+
+const user = {
+    name:"manish",
+    age: 15
+}
+function myFun(anyobject){
+    console.log(`name is: ${anyobject.name}, and age is: ${anyobject.age}`);
+}
+myFun(user) 
